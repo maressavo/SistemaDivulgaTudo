@@ -32,7 +32,7 @@ Essas instruções permitirão que você obtenha uma cópia do projeto em opera�
 
 ## ⚙️ Executando os testes
 
-Na 1ª parte foram implentadas algumas condicionais correspondentes aos valores que representam o mínimo para ter 30 visualizações, e os valores dos pontos de virada quando entra em cada ciclo
+Na 1ª parte foram implentadas na classe calculadoraTest algumas condicionais correspondentes aos valores que representam o mínimo para ter 30 visualizações, e os valores dos pontos de virada quando entra em cada ciclo.
 
 
 ## 🛠️ Construído com

@@ -10,11 +10,11 @@ A agência Divulga Tudo solicitou a programação dividida em duas etapas que co
 - 2ª parte: Um sistema de cadastro de anúncios deve ser feito
 
 Para a execução da 1ª parte não foi solicitado que se desenvolvesse uma tela interativa com diversas funções, apenas deveria ser feito um script de que atendesse aos seguintes requisitos:
-	- a cada 100 pessoas que visualizassem o anúncio, 12 delas clicariam nele;
-	- a cada 20 pessoas que clicassem no anúncio 3 delas iriam compartilhar nas redes sociais;
-	- cada compartilhamento nas redes sociais gerariam  40 novas visualizações;
-	- o investimento de R$ 1,00 corresponderia a 30 pessoas que visualizariam o anúncio original, ou seja, aquele que não foi compartilhado;
-	- O mesmo anúncio só poderia ser compartilhado no máximo até 4 vezes em sequência, ou seja, seria estabelecido o ciclo de compartilhamento até a terceira pessoa, porém a quarta não iria compartilhar mais, o que daria a realidade demonstrada a seguir:
+- a cada 100 pessoas que visualizassem o anúncio, 12 delas clicariam nele;
+- a cada 20 pessoas que clicassem no anúncio 3 delas iriam compartilhar nas redes sociais;
+- cada compartilhamento nas redes sociais gerariam  40 novas visualizações;
+- o investimento de R$ 1,00 corresponderia a 30 pessoas que visualizariam o anúncio original, ou seja, aquele que não foi compartilhado;
+- O mesmo anúncio só poderia ser compartilhado no máximo até 4 vezes em sequência, ou seja, seria estabelecido o ciclo de compartilhamento até a terceira pessoa, porém a quarta não iria compartilhar mais, o que daria a realidade demonstrada a seguir:
 	1ª pessoa -> compartilha;
 	2ª pessoa -> compartilha;
 	3ª pessoa -> compartilha;
@@ -23,16 +23,16 @@ O valor base para os cálculos será o informado pelo usuário na caixa de diál
 Essas instruções permitirão que você obtenha uma cópia do projeto em operação na sua máquina local para fins de desenvolvimento e teste.
 
 Para a execução da 2ª parte do projeto foi solicitada criação de um software que permita o cadastro de anúncios, com os respectivos dados listados a seguir:
-	- nome do anúncio;
-	- cliente;
-	- data de início;
-	- data de término;
-	- investimento por dia.
+- nome do anúncio;
+- cliente;
+- data de início;
+- data de término;
+- investimento por dia.
 O sistema deve também fornecer o relátio de cada anúncio, podendo ser filtrado tanto por intervalo de tempo e cliente. Os ítens a seguir são os específicos que devem aparecer no relatório:
-	- valor total investido;
-	- quantidade máxima de visualizações;
-	- quantidade máxima de cliques;
-	- quantidade máxima de compartilhamentos;
+- valor total investido;
+- quantidade máxima de visualizações;
+- quantidade máxima de cliques;
+- quantidade máxima de compartilhamentos;
 
 
 ### 📋 Pré-requisitos

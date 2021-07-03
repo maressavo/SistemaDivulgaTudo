@@ -1,6 +1,6 @@
 # Sistema de Cadastro de anúncios
 
-A agência Divulga Tudo necessita de um programa para gerenciamento de anúncios online. Os anúncios que ela deseja fazem parte de uma campanha nas redes sociais. Através desse software ela anseia conseguir gerir e rastrear os anúncios e os respectivos resultados dessa campanha.
+A agência Divulga Tudo necessita de um programa para gerenciamento de anúncios online. Os anúncios que ela deseja fazem parte de uma campanha nas redes sociais. Através desse software ela anseia conseguir gerir e rastrear os anúncios bem como os respectivos resultados dessa campanha.
 
 ## 🚀 Começando
 
@@ -21,6 +21,19 @@ Para a execução da 1ª parte não foi solicitado que se desenvolvesse uma tela
 	4ª pessoa -> encerrado o ciclo sem novo compartilhamento.
 O valor base para os cálculos será o informado pelo usuário na caixa de diálogo, e na sequência o script calcula e devolve o resultado da projeção aproximada da quantidade máxima de pessoas que visualizarão o mesmo anúncio, considerando a somatória de anúncio original com os compartilhamentos.
 Essas instruções permitirão que você obtenha uma cópia do projeto em operação na sua máquina local para fins de desenvolvimento e teste.
+
+Para a execução da 2ª parte do projeto foi solicitada criação de um software que permita o cadastro de anúncios, com os respectivos dados listados a seguir:
+	- nome do anúncio;
+	- cliente;
+	- data de início;
+	- data de término;
+	- investimento por dia.
+O sistema deve também fornecer o relátio de cada anúncio, podendo ser filtrado tanto por intervalo de tempo e cliente. Os ítens a seguir são os específicos que devem aparecer no relatório:
+	- valor total investido;
+	- quantidade máxima de visualizações;
+	- quantidade máxima de cliques;
+	- quantidade máxima de compartilhamentos;
+
 
 ### 📋 Pré-requisitos
 

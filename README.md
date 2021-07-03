@@ -27,7 +27,7 @@ Para a execução da 2ª parte do projeto foi solicitada criação de um softwar
 - data de início;
 - data de término;
 - investimento por dia.
-O sistema deve também fornecer o relátio de cada anúncio, podendo ser filtrado tanto por intervalo de tempo e cliente. Os ítens a seguir são os específicos que devem aparecer no relatório:
+O sistema deve também fornecer o relatório de cada anúncio, podendo ser filtrado tanto por intervalo de tempo e cliente. Os ítens a seguir são os específicos que devem aparecer no relatório:
 - valor total investido;
 - quantidade máxima de visualizações;
 - quantidade máxima de cliques;
@@ -35,12 +35,12 @@ O sistema deve também fornecer o relátio de cada anúncio, podendo ser filtrad
 
 
 ### 📋 Pré-requisitos
-
-
+.
+.
 
 ### 🔧 Instalação
-
-
+.
+.
 
 ## ⚙️ Executando os testes
 

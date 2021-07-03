@@ -15,10 +15,10 @@ Para a execução da 1ª parte não foi solicitado que se desenvolvesse uma tela
 - cada compartilhamento nas redes sociais gerariam  40 novas visualizações;
 - o investimento de R$ 1,00 corresponderia a 30 pessoas que visualizariam o anúncio original, ou seja, aquele que não foi compartilhado;
 - o mesmo anúncio só poderia ser compartilhado no máximo até 4 vezes em sequência, ou seja, seria estabelecido o ciclo de compartilhamento até a terceira pessoa, porém a quarta não iria compartilhar mais, o que daria a realidade demonstrada a seguir:
-*1ª pessoa -> compartilha;
-*2ª pessoa -> compartilha;
-*3ª pessoa -> compartilha;
-*4ª pessoa -> encerrado o ciclo sem novo compartilhamento.
+-1ª pessoa -> compartilha;
+-2ª pessoa -> compartilha;
+-3ª pessoa -> compartilha;
+-4ª pessoa -> encerrado o ciclo sem novo compartilhamento.
 O valor base para os cálculos será o informado pelo usuário na caixa de diálogo, e na sequência o script calcula e devolve o resultado da projeção aproximada da quantidade máxima de pessoas que visualizarão o mesmo anúncio, considerando a somatória de anúncio original com as novas visualizações que foram obtidas com os novos compartilhamentos.
 Essas instruções permitirão que você obtenha uma cópia do projeto em operação na sua máquina local para fins de desenvolvimento e teste.
 

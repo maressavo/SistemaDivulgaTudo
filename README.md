@@ -82,16 +82,19 @@ Verificou-se que foram contempladas as realidades apresentadas nos testes.
 
 ### 🔧 Instalação da 2ª Parte
 Subentende-se que foram instalados corretamente os ítens especificados para a 1ª parte, que serão necessário para a 2ª parte também.
-Por se tratar de um sistema, precisamos garantir a persistência de dados, para tal, será necessária a instalação do JDBC Driver for MySQL, e do Xampp ou similar para estabelecer a conexão com o Banco de daods. Será necessária também a instalação da biblioteca do [JavaFx](https://gluonhq.com/download/javafx-16-sdk-windows/), para a manipulação dos arquivos .fxml.
+Por se tratar de um sistema, precisamos garantir a persistência de dados, para tal, será necessária a instalação do JDBC Driver for MySQL, e do Xampp ou similar para estabelecer a conexão com o Banco de dados. Será necessária também a instalação da biblioteca do [JavaFx](https://gluonhq.com/download/javafx-16-sdk-windows/), para a manipulação dos arquivos .fxml.
 
 Após a instalação do Xampp, verifique se o Apache e o MySQL estão ativos conforme demonstra a imagem a seguir:
 ![image](https://user-images.githubusercontent.com/86390616/124389499-c19aa800-dcbd-11eb-8199-9ad58491d4b3.png)
 
+
 Rode a Query que está no arquivo banco.sql que se encontra no pacote banco. Verifique se está tudo ok com o banco, caso esteja, abra a classe Conexao.java que está no pacote banco, verifique os campos do nome do usuário e senha, e caso tenha usuário diferente atribuído e senha, substitua-os, se mantiver o mesmo padrão de usuário "root" e estiver sem senha, basta executar, que a conexão será estabelecida com o banco criado com a Query informada.
 ![image](https://user-images.githubusercontent.com/86390616/124390945-628c6180-dcc4-11eb-9683-3cec99c69ba1.png)
 
+
 Na sequência execute a classe Main.java. Se todos os passos anteriores foram seguidos corretamente, surgirá a tela a seguir:
 ![image](https://user-images.githubusercontent.com/86390616/124391744-720da980-dcc8-11eb-8c8f-b20b89b6fe2a.png)
+
 
 Clique no botão Cadastrar anúncio, na sequência insira os dados solicitados, conforme demonstra a imagem a seguir:
 ![image](https://user-images.githubusercontent.com/86390616/124391783-923d6880-dcc8-11eb-818b-2a8e6f960347.png)
@@ -105,14 +108,18 @@ A imagem a seguir demonstra a validação geral.
 A imagem a seguir demonstra um cadastro bem suscedido.
 ![image](https://user-images.githubusercontent.com/86390616/124399204-59b18500-dcf0-11eb-8852-bb36fa5ad2aa.png)
 
+
 Na sequência para gerar relatório, clique no botão gerar relatório e aparecerá a tela a seguir.
 ![image](https://user-images.githubusercontent.com/86390616/124392340-52c44b80-dccb-11eb-8a88-a7ac56c05573.png)
+
 
 Ao clicar no botão gerar relatório, se os campos estiverem vazios a validação se dará conforme demonstrada na tela abaixo:
 ![image](https://user-images.githubusercontent.com/86390616/124399343-1acfff00-dcf1-11eb-8e11-90c929b6ca7b.png)
 
+
 Essa é uma demonstração da pesquisa por nome do cliente. A caixa de confirmação trás os dados do cadastro no banco de dados e os respectivos valores.
 ![image](https://user-images.githubusercontent.com/86390616/124399603-be6ddf00-dcf2-11eb-8eeb-9e91191fb115.png)
+
 
 Caso o nome do cliente não esteja atribuído a algum anúncio, o sistema adverte que não encontrou registro para o dado solicitado para relatório, conforme demonstra a tela a seguir:
 ![image](https://user-images.githubusercontent.com/86390616/124399753-ec9fee80-dcf3-11eb-99c1-0d2ae29d1306.png)

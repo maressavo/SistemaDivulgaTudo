@@ -34,12 +34,53 @@ O sistema deve também fornecer o relatório de cada anúncio, podendo ser filtr
 - quantidade máxima de compartilhamentos;
 
 
-### 📋 Pré-requisitos
-.
+### 📋 Pré-requisitos globais (para ambas as partes)
+* Instalação do IDE Eclipe, link para download na descrição construído com na sequência abaixo;
+* Instalação do Java SE 16;
+* 
 .
 
-### 🔧 Instalação
-.
+
+### 🔧 Instalação da 1ª Parte
+Após a instalação da IDE do Eclipe, e atualização da versão do Java importe o projeto no Eclipse.
+Abra a calculadora na 1ª Parte, especificamente o arquivo calculadora.java).
+Se tudo tiver corrigo bem você verá a tela dessa maneira
+![image](https://user-images.githubusercontent.com/86390616/124385827-d2dbb880-dcad-11eb-9f72-847366d0216d.png)
+Execute o script de acordo com o valor desejado para cálculo.
+Duas janelas de diálogo deverão aparecer para você, a primeira pedindo um valor para calcular a estimativa de visualizações, a segunda informando a estimativa para o valor que você informar.
+
+Primeira janela de diálogo
+![image](https://user-images.githubusercontent.com/86390616/124385995-7f1d9f00-dcae-11eb-9932-e10e2f8d45ef.png)
+
+
+Janela com o valor informado
+![image](https://user-images.githubusercontent.com/86390616/124386012-92c90580-dcae-11eb-9512-c82d2c4a0e33.png)
+
+
+Segunda janela de diálogo com retorno da estimativa
+![image](https://user-images.githubusercontent.com/86390616/124386035-aa07f300-dcae-11eb-957a-81e3bc0e9244.png)
+
+
+
+## ⚙️ Executando os testes na 1ª Parte
+
+Foram implentadas na classe calculadoraTest algumas condicionais correspondentes aos valores que representam o mínimo para ter 30 visualizações, e os valores dos pontos de virada quando entra em cada ciclo.
+O cálculo de base foi um teste de mesa demonstrando o que deveria acontecer para cada valor estimado, usando investimento de centavo a centavo, considerando o intervalo do valor de investimento de R$0,01 a R$10,00 em moeda brasileira, conforme demonstra a imagem abaixo O teste de mesa foi organizado e devidamente arredondado em uma planilha do Excel, que anexo aqui para apreciação e compreensão da metodologia adotada para chegar aos valores aqui comparados.
+As linhas amarelas demonstram os pontos de virada, ou seja, os valores que iniciam o ciclo da próxima etapa. Exceto o valor de R$ 9,57 que demonstra o ponto de virada que seria o momento que se não houvesse a restrição sobre parar na quarta pessoa, a calculadora iniciaria a previsão para um novo compartilhamento, pois segundo os cálculos a partir de 7 cliques haveria um novo compartilhamento.
+![image](https://user-images.githubusercontent.com/86390616/124386811-847ce880-dcb2-11eb-817a-1180157163d7.png)
+Como observado na imagem anterior os valores de virada são R$2,24, R$3,90 e R$5,47.
+
+
+
+
+## 🛠️ Construído com
+
+* [Eclipse IDE](https://www.eclipse.org/downloads/download.php?file=/oomph/epp/2021-06/R/eclipse-inst-jre-win64.exe)
+
+
+2ª Parte
+### 🔧 Instalação da 2ª Parte
+Após a instalação da IDE do Eclipe, importe o projeto no Eclipse...
 .
 
 ## ⚙️ Executando os testes
@@ -51,6 +92,7 @@ Na 1ª parte foram implentadas na classe calculadoraTest algumas condicionais co
 
 * [Eclipse IDE](https://www.eclipse.org/downloads/download.php?file=/oomph/epp/2021-06/R/eclipse-inst-jre-win64.exe)
 * [JavaFX Scene Builder 2.0]( https://www.oracle.com/java/technologies/javafxscenebuilder-1x-archive-downloads.html)
+* [MySQL]()
 
 
 ## ✒️ Autor

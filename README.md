@@ -114,6 +114,9 @@ Ao clicar no botão gerar relatório, se os campos estiverem vazios a validaçã
 Essa é uma demonstração da pesquisa por nome do cliente. A caixa de confirmação trás os dados do cadastro no banco de dados e os respectivos valores.
 ![image](https://user-images.githubusercontent.com/86390616/124399603-be6ddf00-dcf2-11eb-8eeb-9e91191fb115.png)
 
+Caso o nome do cliente não esteja atribuído a algum anúncio, o sistema adverte que não encontrou registro para o dado solicitado para relatório, conforme demonstra a tela a seguir:
+![image](https://user-images.githubusercontent.com/86390616/124399753-ec9fee80-dcf3-11eb-99c1-0d2ae29d1306.png)
+
 
 
 

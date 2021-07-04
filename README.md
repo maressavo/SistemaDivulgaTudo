@@ -35,10 +35,9 @@ O sistema deve também fornecer o relatório de cada anúncio, podendo ser filtr
 
 
 ### 📋 Pré-requisitos globais (para ambas as partes)
-* Instalação do IDE Eclipe, link para download na descrição construído com na sequência abaixo;
-* Instalação do Java SE 16;
-* 
-.
+* Instalação do [Eclipse IDE for Java Developers] (https://www.eclipse.org/downloads/download.php?file=/technology/epp/downloads/release/2021-06/R/eclipse-java-2021-06-R-win32-x86_64.zip&mirror_id=576), link para download na descrição construído com na sequência abaixo;
+* Instalação do [Java SE Development Kit 16] (https://www.oracle.com/java/technologies/javase-jdk16-downloads.html);
+* Junit 5, nas versão indicada do IDE do Eclipse já está disponível essa versão do JUnit. 
 
 
 ### 🔧 Instalação da 1ª Parte
@@ -70,18 +69,21 @@ As linhas amarelas demonstram os pontos de virada, ou seja, os valores que inici
 ![image](https://user-images.githubusercontent.com/86390616/124386811-847ce880-dcb2-11eb-817a-1180157163d7.png)
 Como observado na imagem anterior os valores de virada são R$2,24, R$3,90 e R$5,47.
 
+Conforme demonstra a tela a seguir foi implementado o Teste Unitário do arquivo calculadoraTest.Java, para esses pontos de virada descritos e também a verificação para o valor base de R$1,00.
+![image](https://user-images.githubusercontent.com/86390616/124387917-b8f2a380-dcb6-11eb-81df-c87a4e3126b8.png)
 
+Verificou-se que foram contempladas as realidades apresentadas nos testes.
 
 
 ## 🛠️ Construído com
 
-* [Eclipse IDE](https://www.eclipse.org/downloads/download.php?file=/oomph/epp/2021-06/R/eclipse-inst-jre-win64.exe)
+* [Eclipse IDE](https://www.eclipse.org/downloads/download.php?file=/technology/epp/downloads/release/2021-06/R/eclipse-java-2021-06-R-win32-x86_64.zip&mirror_id=576)
+* [Java SE 16] (https://www.oracle.com/java/technologies/javase-jdk16-downloads.html)
 
 
-2ª Parte
 ### 🔧 Instalação da 2ª Parte
-Após a instalação da IDE do Eclipe, importe o projeto no Eclipse...
-.
+Subentende-se que foram instalados corretamente os ítens especificados para a 1ª parte, que serão necessário para a 2ª parte também.
+Por se tratar de um sistema, precisamos garantir a persistência de dados, para tal, será necessária a instalação do JDBC Driver for MySQL, da biblioteca do [JavaFx](https://gluonhq.com/download/javafx-16-sdk-windows/), do Modelador JavaFC Scene Builder
 
 ## ⚙️ Executando os testes
 
@@ -91,7 +93,6 @@ Na 1ª parte foram implentadas na classe calculadoraTest algumas condicionais co
 ## 🛠️ Construído com
 
 * [Eclipse IDE](https://www.eclipse.org/downloads/download.php?file=/oomph/epp/2021-06/R/eclipse-inst-jre-win64.exe)
-* [JavaFX Scene Builder 2.0]( https://www.oracle.com/java/technologies/javafxscenebuilder-1x-archive-downloads.html)
 * [MySQL]()
 
 

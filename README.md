@@ -35,8 +35,8 @@ O sistema deve também fornecer o relatório de cada anúncio, podendo ser filtr
 
 
 ### 📋 Pré-requisitos globais (para ambas as partes)
-* Instalação do [Eclipse IDE for Java Developers] (https://www.eclipse.org/downloads/download.php?file=/technology/epp/downloads/release/2021-06/R/eclipse-java-2021-06-R-win32-x86_64.zip&mirror_id=576), link para download na descrição construído com na sequência abaixo;
-* Instalação do [Java SE Development Kit 16] (https://www.oracle.com/java/technologies/javase-jdk16-downloads.html);
+* Instalação do [Eclipse IDE for Java Developers](https://www.eclipse.org/downloads/download.php?file=/technology/epp/downloads/release/2021-06/R/eclipse-java-2021-06-R-win32-x86_64.zip&mirror_id=576), link para download na descrição construído com na sequência abaixo;
+* Instalação do [Java SE Development Kit 16](https://www.oracle.com/java/technologies/javase-jdk16-downloads.html);
 * Junit 5, nas versão indicada do IDE do Eclipse já está disponível essa versão do JUnit. 
 
 

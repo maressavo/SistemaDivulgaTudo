@@ -88,9 +88,8 @@ Após a instalação do Xampp, verifique se o Apache e o MySQL estão ativos con
 ![image](https://user-images.githubusercontent.com/86390616/124389499-c19aa800-dcbd-11eb-8199-9ad58491d4b3.png)
 
 
-Rode a Query que está no arquivo banco.sql que se encontra no pacote banco. Verifique se está tudo ok com o banco, caso esteja, abra a classe Conexao.java que está no pacote banco, verifique os campos do nome do usuário e senha, e caso tenha usuário diferente atribuído e senha, substitua-os, se mantiver o mesmo padrão de usuário "root" e estiver sem senha, basta executar, que a conexão será estabelecida com o banco criado com a Query informada.
-![image](https://user-images.githubusercontent.com/86390616/124390945-628c6180-dcc4-11eb-9683-3cec99c69ba1.png)
-
+Rode a Query que está no arquivo banco.sql que se encontra no pacote banco. Verifique se está tudo ok com o banco, caso esteja, abra a classe Conexao.java que está no pacote banco, verifique os campos do nome do usuário e senha, e caso seu usuário ou senha sejam diferentes, substitua-os, se mantiver o mesmo padrão de usuário "root" e estiver sem senha, basta executar a classe que a conexão com o banco será estabelecida.
+![image](https://user-images.githubusercontent.com/86390616/124399937-49e86f80-dcf5-11eb-8fdf-709a5731196f.png)
 
 Na sequência execute a classe Main.java. Se todos os passos anteriores foram seguidos corretamente, surgirá a tela a seguir:
 ![image](https://user-images.githubusercontent.com/86390616/124391744-720da980-dcc8-11eb-8c8f-b20b89b6fe2a.png)

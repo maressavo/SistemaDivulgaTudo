@@ -35,8 +35,8 @@ O sistema deve também fornecer o relatório de cada anúncio, podendo ser filtr
 
 
 ### 📋 Pré-requisitos globais (para ambas as partes)
-* Instalação do [Eclipse IDE for Java Developers] (https://www.eclipse.org/downloads/download.php?file=/technology/epp/downloads/release/2021-06/R/eclipse-java-2021-06-R-win32-x86_64.zip&mirror_id=576), link para download na descrição construído com na sequência abaixo;
-* Instalação do [Java SE Development Kit 16] (https://www.oracle.com/java/technologies/javase-jdk16-downloads.html);
+* Instalação do [Eclipse IDE for Java Developers](https://www.eclipse.org/downloads/download.php?file=/technology/epp/downloads/release/2021-06/R/eclipse-java-2021-06-R-win32-x86_64.zip&mirror_id=576).
+* Instalação do [Java SE Development Kit 16](https://www.oracle.com/java/technologies/javase-jdk16-downloads.html);
 * Junit 5, nas versão indicada do IDE do Eclipse já está disponível essa versão do JUnit. 
 
 
@@ -89,7 +89,19 @@ Após a instalação do Xampp, verifique se o Apache e o MySQL estão ativos con
 Rode a Query que está no arquivo banco.sql que se encontra no pacote banco. Verifique se está tudo ok com o banco, caso esteja, abra a classe Conexao.java que está no pacote banco, verifique os campos do nome do usuário e senha, e caso tenha usuário diferente atribuído e senha, substitua-os, se mantiver o mesmo padrão de usuário "root" e estiver sem senha, basta executar, que a conexão será estabelecida com o banco criado com a Query informada.
 ![image](https://user-images.githubusercontent.com/86390616/124390945-628c6180-dcc4-11eb-9683-3cec99c69ba1.png)
 
+Na sequência execute a classe Main.java. Se todos os passos anteriores foram seguidos corretamente, surgirá a tela a seguir:
+![image](https://user-images.githubusercontent.com/86390616/124391744-720da980-dcc8-11eb-8c8f-b20b89b6fe2a.png)
 
+Clique no botão Cadastrar anúncio, na sequência insira os dados solicitados, conforme demonstra a imagem a seguir:
+![image](https://user-images.githubusercontent.com/86390616/124391783-923d6880-dcc8-11eb-818b-2a8e6f960347.png)
+
+Se algum dos campos não for preenchido, o anúncio não é salvo.
+O sistema retorna os erros.
+A imagem a seguir demonstra a validação geral.
+![image](https://user-images.githubusercontent.com/86390616/124391902-36271400-dcc9-11eb-8cd2-6c0e4c407d9a.png)
+
+A imagem a seguir demonstra um cadastro bem suscedido.
+![image](https://user-images.githubusercontent.com/86390616/124391982-a46bd680-dcc9-11eb-891b-7960eb00df27.png)
 
 
 

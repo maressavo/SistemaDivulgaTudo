@@ -117,6 +117,16 @@ Essa é uma demonstração da pesquisa por nome do cliente. A caixa de confirma�
 Caso o nome do cliente não esteja atribuído a algum anúncio, o sistema adverte que não encontrou registro para o dado solicitado para relatório, conforme demonstra a tela a seguir:
 ![image](https://user-images.githubusercontent.com/86390616/124399753-ec9fee80-dcf3-11eb-99c1-0d2ae29d1306.png)
 
+As imagens a seguir demonstram 4 realidades sobre a validação das datas:
+
+![image](https://user-images.githubusercontent.com/86390616/124399838-9da68900-dcf4-11eb-9ad6-64fce2195969.png)
+
+![image](https://user-images.githubusercontent.com/86390616/124399840-a008e300-dcf4-11eb-8ed4-38080637a999.png)
+
+![image](https://user-images.githubusercontent.com/86390616/124399848-a8f9b480-dcf4-11eb-8c89-18fef7e346ad.png)
+
+![image](https://user-images.githubusercontent.com/86390616/124399849-ad25d200-dcf4-11eb-84db-ef0606e6dcb7.png)
+
 
 
 

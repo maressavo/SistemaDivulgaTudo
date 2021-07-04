@@ -141,7 +141,8 @@ As imagens a seguir demonstram 4 realidades sobre a validação das datas:
 
 ## ⚙️ Executando os testes
 
-Na 1ª parte foram implentadas na classe calculadoraTest algumas condicionais correspondentes aos valores que representam o mínimo para ter 30 visualizações, e os valores dos pontos de virada quando entra em cada ciclo.
+Foram implementados os testes para a conecção com o Banco de Dados conforme demonstra a foto a seguir:
+
 
 
 ## 🛠️ Construído com
@@ -153,7 +154,7 @@ Na 1ª parte foram implentadas na classe calculadoraTest algumas condicionais co
 
 ## ✒️ Autor
 
-Maressa Vargas de Oliveira
+[Maressa Vargas de Oliveira](https://www.linkedin.com/in/maressa-vargas-de-oliveira-08a309129/)
 
 
 ## 📄 Licença

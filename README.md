@@ -83,6 +83,7 @@ Verificou-se que foram contempladas as realidades apresentadas nos testes.
 ### 🔧 Instalação da 2ª Parte
 Subentende-se que foram instalados corretamente os ítens especificados para a 1ª parte, que serão necessário para a 2ª parte também.
 Por se tratar de um sistema, precisamos garantir a persistência de dados, para tal, será necessária a instalação do JDBC Driver for MySQL, e do Xampp ou similar para estabelecer a conexão com o Banco de daods. Será necessária também a instalação da biblioteca do [JavaFx](https://gluonhq.com/download/javafx-16-sdk-windows/), para a manipulação dos arquivos .fxml.
+
 Após a instalação do Xampp, verifique se o Apache e o MySQL estão ativos conforme demonstra a imagem a seguir:
 ![image](https://user-images.githubusercontent.com/86390616/124389499-c19aa800-dcbd-11eb-8199-9ad58491d4b3.png)
 
@@ -100,11 +101,15 @@ O sistema retorna os erros.
 A imagem a seguir demonstra a validação geral.
 ![image](https://user-images.githubusercontent.com/86390616/124399217-76e65380-dcf0-11eb-9d6f-b1aea15982e8.png)
 
+
 A imagem a seguir demonstra um cadastro bem suscedido.
 ![image](https://user-images.githubusercontent.com/86390616/124399204-59b18500-dcf0-11eb-8852-bb36fa5ad2aa.png)
 
 Na sequência para gerar relatório, clique no botão gerar relatório e aparecerá a tela a seguir.
 ![image](https://user-images.githubusercontent.com/86390616/124392340-52c44b80-dccb-11eb-8a88-a7ac56c05573.png)
+
+Ao clicar no botão gerar relatório, se os campos estiverem vazios a validação se dará conforme demonstrada na tela abaixo:
+![image](https://user-images.githubusercontent.com/86390616/124399343-1acfff00-dcf1-11eb-8e11-90c929b6ca7b.png)
 
 
 

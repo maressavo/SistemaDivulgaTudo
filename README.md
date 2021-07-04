@@ -78,7 +78,7 @@ Verificou-se que foram contempladas as realidades apresentadas nos testes.
 ## 🛠️ Construído com
 
 * [Eclipse IDE](https://www.eclipse.org/downloads/download.php?file=/technology/epp/downloads/release/2021-06/R/eclipse-java-2021-06-R-win32-x86_64.zip&mirror_id=576)
-* [Java SE Development Kit 16] (https://www.oracle.com/java/technologies/javase-jdk16-downloads.html)
+* [Java SE Development Kit 16](https://www.oracle.com/java/technologies/javase-jdk16-downloads.html)
 
 ### 🔧 Instalação da 2ª Parte
 Subentende-se que foram instalados corretamente os ítens especificados para a 1ª parte, que serão necessário para a 2ª parte também.

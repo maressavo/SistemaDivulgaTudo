@@ -103,6 +103,9 @@ A imagem a seguir demonstra a validação geral.
 A imagem a seguir demonstra um cadastro bem suscedido.
 ![image](https://user-images.githubusercontent.com/86390616/124391982-a46bd680-dcc9-11eb-891b-7960eb00df27.png)
 
+Na sequência para gerar relatório, clique no botão gerar relatório e aparecerá a tela a seguir.
+![image](https://user-images.githubusercontent.com/86390616/124392340-52c44b80-dccb-11eb-8a88-a7ac56c05573.png)
+
 
 
 ## ⚙️ Executando os testes

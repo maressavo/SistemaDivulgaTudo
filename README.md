@@ -63,7 +63,7 @@ Segunda janela de diálogo com retorno da estimativa
 
 ## ⚙️ Executando os testes na 1ª Parte
 
-Foram implentadas na classe calculadoraTest algumas condicionais correspondentes aos valores que representam o mínimo para ter 30 visualizações, e os valores dos pontos de virada quando entra em cada ciclo.
+Foram implentadas na classe calculadoraTest algumas condicionais correspondentes aos valores correspondetes aos pontos de virada, os quais representam o valor que inicia a entrada no próximo ciclo de compartilhamento.
 O cálculo de base foi um teste de mesa demonstrando o que deveria acontecer para cada valor estimado, usando investimento de centavo a centavo, considerando o intervalo do valor de investimento de R$0,01 a R$10,00 em moeda brasileira, conforme demonstra a imagem abaixo O teste de mesa foi organizado e devidamente arredondado em uma planilha do Excel, que anexo aqui para apreciação e compreensão da metodologia adotada para chegar aos valores aqui comparados.
 As linhas amarelas demonstram os pontos de virada, ou seja, os valores que iniciam o ciclo da próxima etapa. Exceto o valor de R$ 9,57 que demonstra o ponto de virada que seria o momento que se não houvesse a restrição sobre parar na quarta pessoa, a calculadora iniciaria a previsão para um novo compartilhamento, pois segundo os cálculos a partir de 7 cliques haveria um novo compartilhamento.
 ![image](https://user-images.githubusercontent.com/86390616/124386811-847ce880-dcb2-11eb-817a-1180157163d7.png)
@@ -107,7 +107,7 @@ Na 1ª parte foram implentadas na classe calculadoraTest algumas condicionais co
 
 ## ✒️ Autor
 
------
+Maressa Vargas de Oliveira
 
 
 ## 📄 Licença
@@ -116,4 +116,7 @@ Este projeto está sob a licença (sua licença) - veja o arquivo [LICENSE.md](h
 
 ## 🎁 Expressões de gratidão
 
+* Agradeço à Deus pelo dom da vida e capacitação;
+* Agradeço à minha família pelo apoio e dedicação a mim oferecidos;
+* Agradeço à Capgemini pela oportunidade de crescimento e aperfeiçoamento;
 * Conte a outras pessoas sobre este projeto 📢

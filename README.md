@@ -98,10 +98,10 @@ Clique no botão Cadastrar anúncio, na sequência insira os dados solicitados, 
 Se algum dos campos não for preenchido, o anúncio não é salvo.
 O sistema retorna os erros.
 A imagem a seguir demonstra a validação geral.
-![image](https://user-images.githubusercontent.com/86390616/124391902-36271400-dcc9-11eb-8cd2-6c0e4c407d9a.png)
+![image](https://user-images.githubusercontent.com/86390616/124399217-76e65380-dcf0-11eb-9d6f-b1aea15982e8.png)
 
 A imagem a seguir demonstra um cadastro bem suscedido.
-![image](https://user-images.githubusercontent.com/86390616/124391982-a46bd680-dcc9-11eb-891b-7960eb00df27.png)
+![image](https://user-images.githubusercontent.com/86390616/124399204-59b18500-dcf0-11eb-8852-bb36fa5ad2aa.png)
 
 Na sequência para gerar relatório, clique no botão gerar relatório e aparecerá a tela a seguir.
 ![image](https://user-images.githubusercontent.com/86390616/124392340-52c44b80-dccb-11eb-8a88-a7ac56c05573.png)

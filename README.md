@@ -111,6 +111,10 @@ Na sequência para gerar relatório, clique no botão gerar relatório e aparece
 Ao clicar no botão gerar relatório, se os campos estiverem vazios a validação se dará conforme demonstrada na tela abaixo:
 ![image](https://user-images.githubusercontent.com/86390616/124399343-1acfff00-dcf1-11eb-8e11-90c929b6ca7b.png)
 
+Essa é uma demonstração da pesquisa por nome do cliente. A caixa de confirmação trás os dados do cadastro no banco de dados e os respectivos valores.
+![image](https://user-images.githubusercontent.com/86390616/124399603-be6ddf00-dcf2-11eb-8eeb-9e91191fb115.png)
+
+
 
 
 ## ⚙️ Executando os testes

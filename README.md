@@ -41,7 +41,7 @@ O sistema deve também fornecer o relatório de cada anúncio, podendo ser filtr
 
 
 ### 🔧 Instalação da 1ª Parte
-Após a instalação da IDE do Eclipe, e atualização da versão do Java importe o projeto no Eclipse.
+Após a instalação da IDE do Eclipe, instale ou atualize a versão do Java caso necessário. Na sequência importe o projeto no Eclipse.
 Abra a calculadora na 1ª Parte, especificamente o arquivo calculadora.java).
 Se tudo tiver corrigo bem você verá a tela dessa maneira
 ![image](https://user-images.githubusercontent.com/86390616/124385827-d2dbb880-dcad-11eb-9f72-847366d0216d.png)

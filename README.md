@@ -35,8 +35,8 @@ O sistema deve também fornecer o relatório de cada anúncio, podendo ser filtr
 
 
 ### 📋 Pré-requisitos globais (para ambas as partes)
-* Instalação do [Eclipse IDE for Java Developers](https://www.eclipse.org/downloads/download.php?file=/technology/epp/downloads/release/2021-06/R/eclipse-java-2021-06-R-win32-x86_64.zip&mirror_id=576), link para download na descrição construído com na sequência abaixo;
-* Instalação do [Java SE Development Kit 16](https://www.oracle.com/java/technologies/javase-jdk16-downloads.html);
+* Instalação do [Eclipse IDE for Java Developers] (https://www.eclipse.org/downloads/download.php?file=/technology/epp/downloads/release/2021-06/R/eclipse-java-2021-06-R-win32-x86_64.zip&mirror_id=576), link para download na descrição construído com na sequência abaixo;
+* Instalação do [Java SE Development Kit 16] (https://www.oracle.com/java/technologies/javase-jdk16-downloads.html);
 * Junit 5, nas versão indicada do IDE do Eclipse já está disponível essa versão do JUnit. 
 
 
@@ -86,10 +86,10 @@ Por se tratar de um sistema, precisamos garantir a persistência de dados, para 
 Após a instalação do Xampp, verifique se o Apache e o MySQL estão ativos conforme demonstra a imagem a seguir:
 ![image](https://user-images.githubusercontent.com/86390616/124389499-c19aa800-dcbd-11eb-8199-9ad58491d4b3.png)
 
-Se tudo estiver ok, abra a classe Conexao.java que está no pacote banco, verifique os campos do nome do usuário e senha, e caso tenha usuário diferente atribuído e senha, substitua-os, se mantiver o mesmo padrão de usuário "root" e estiver sem senha, basta executar, que a conexão será estabelecida com o banco criado com a Query informada.
+Rode a Query que está no arquivo banco.sql que se encontra no pacote banco. Verifique se está tudo ok com o banco, caso esteja, abra a classe Conexao.java que está no pacote banco, verifique os campos do nome do usuário e senha, e caso tenha usuário diferente atribuído e senha, substitua-os, se mantiver o mesmo padrão de usuário "root" e estiver sem senha, basta executar, que a conexão será estabelecida com o banco criado com a Query informada.
 ![image](https://user-images.githubusercontent.com/86390616/124390945-628c6180-dcc4-11eb-9683-3cec99c69ba1.png)
 
-Após a criação, do banco, que está no arquivo banco.sql que se encontra no pacote banco rode a classe Main.java presente na pasta visão da 2ª parte.
+
 
 
 

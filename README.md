@@ -82,7 +82,13 @@ Verificou-se que foram contempladas as realidades apresentadas nos testes.
 
 ### 🔧 Instalação da 2ª Parte
 Subentende-se que foram instalados corretamente os ítens especificados para a 1ª parte, que serão necessário para a 2ª parte também.
-Por se tratar de um sistema, precisamos garantir a persistência de dados, para tal, será necessária a instalação do JDBC Driver for MySQL, da biblioteca do [JavaFx](https://gluonhq.com/download/javafx-16-sdk-windows/), do Modelador JavaFC Scene Builder
+Por se tratar de um sistema, precisamos garantir a persistência de dados, para tal, será necessária a instalação do JDBC Driver for MySQL, e do Xampp ou similar para estabelecer a conexão com o Banco de daods. Será necessária também a instalação da biblioteca do [JavaFx](https://gluonhq.com/download/javafx-16-sdk-windows/), para a manipulação das telas que foram geradas pelo Modelador JavaFX Scene Builder.
+Após a instalação do Xampp, verifique se aparece ativo o Apache e o MySQL está ativos conforme demonstra a imagem a seguir:
+![image](https://user-images.githubusercontent.com/86390616/124389499-c19aa800-dcbd-11eb-8199-9ad58491d4b3.png)
+
+Se tudo estiver ok, prossiga com a execução da Query de comando presente no pacote banco, e veja se deu tudo certo na criação da tabela.
+Após a criação, 
+
 
 ## ⚙️ Executando os testes
 
@@ -92,7 +98,8 @@ Na 1ª parte foram implentadas na classe calculadoraTest algumas condicionais co
 ## 🛠️ Construído com
 
 * [Eclipse IDE](https://www.eclipse.org/downloads/download.php?file=/oomph/epp/2021-06/R/eclipse-inst-jre-win64.exe)
-* [MySQL]()
+* [JDBC Driver for MySQL]()
+* [Xampp]()
 
 
 ## ✒️ Autor

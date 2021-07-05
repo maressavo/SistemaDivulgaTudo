@@ -63,7 +63,7 @@ Segunda janela de diálogo com retorno da estimativa
 
 ## ⚙️ Executando os testes na 1ª Parte
 
-Foram implentadas na classe calculadoraTest algumas condicionais correspondentes aos valores correspondetes aos pontos de virada, os quais representam o valor que inicia a entrada no próximo ciclo de compartilhamento.
+Foram implentadas na classe calculadoraTest algumas condicionais correspondentes aos valores dos pontos de virada, os quais representam o valor que inicia a entrada no próximo ciclo de compartilhamento.
 O cálculo de base foi um teste de mesa demonstrando o que deveria acontecer para cada valor estimado, usando investimento de centavo a centavo, considerando o intervalo do valor de investimento de R$0,01 a R$10,00 em moeda brasileira, conforme demonstra a imagem abaixo O teste de mesa foi organizado e devidamente arredondado em uma planilha do Excel, que anexo aqui para apreciação e compreensão da metodologia adotada para chegar aos valores aqui comparados.
 As linhas amarelas demonstram os pontos de virada, ou seja, os valores que iniciam o ciclo da próxima etapa. Exceto o valor de R$ 9,57 que demonstra o ponto de virada que seria o momento que se não houvesse a restrição sobre parar na quarta pessoa, a calculadora iniciaria a previsão para um novo compartilhamento, pois segundo os cálculos a partir de 7 cliques haveria um novo compartilhamento.
 ![image](https://user-images.githubusercontent.com/86390616/124386811-847ce880-dcb2-11eb-817a-1180157163d7.png)
@@ -91,6 +91,9 @@ Após a instalação do Xampp, verifique se o Apache e o MySQL estão ativos con
 Rode a Query que está no arquivo banco.sql que se encontra no pacote banco. Verifique se está tudo ok com o banco, caso esteja, abra a classe Conexao.java que está no pacote banco, verifique os campos do nome do usuário e senha, e caso seu usuário ou senha sejam diferentes, substitua-os, se mantiver o mesmo padrão de usuário "root" e estiver sem senha, basta executar a classe que a conexão com o banco será estabelecida.
 ![image](https://user-images.githubusercontent.com/86390616/124399937-49e86f80-dcf5-11eb-8fdf-709a5731196f.png)
 
+Crie uma Userlibrary os jars que deverão ser adicionados a essa library se encontram no link a seguir [Library JavaFX](https://github.com/MaressaOliveira25/SistemaDivulgaTudo/tree/main/2%C2%AA%20parte/JavaFX/lib), adicione somente os .jar, não adicione o arquivo javafx.properties nem o arquivo src.zip.
+Após a criação dessa Library, adicione ao Build Path.
+
 Edite no Run Configurations... O valor do VM Arguments, com a seguinte instrução: --module-path ".../JavaFX/lib" --add-modules javafx.controls,javafx.fxml, a qual está demonstrada na imagem abaixo.
 ![image](https://user-images.githubusercontent.com/86390616/124399975-90d66500-dcf5-11eb-9d5e-49150d2e9124.png)
 
@@ -101,6 +104,7 @@ Na sequência execute a classe Main.java. Se todos os passos anteriores foram se
 
 Clique no botão Cadastrar anúncio, na sequência insira os dados solicitados, conforme demonstra a imagem a seguir:
 ![image](https://user-images.githubusercontent.com/86390616/124391783-923d6880-dcc8-11eb-818b-2a8e6f960347.png)
+
 
 Se algum dos campos não for preenchido, o anúncio não é salvo.
 O sistema retorna os erros.
@@ -131,9 +135,12 @@ As imagens a seguir demonstram 4 realidades sobre a validação das datas:
 
 ![image](https://user-images.githubusercontent.com/86390616/124399838-9da68900-dcf4-11eb-9ad6-64fce2195969.png)
 
+
 ![image](https://user-images.githubusercontent.com/86390616/124399840-a008e300-dcf4-11eb-8ed4-38080637a999.png)
 
+
 ![image](https://user-images.githubusercontent.com/86390616/124399848-a8f9b480-dcf4-11eb-8c89-18fef7e346ad.png)
+
 
 ![image](https://user-images.githubusercontent.com/86390616/124399849-ad25d200-dcf4-11eb-84db-ef0606e6dcb7.png)
 
@@ -150,8 +157,10 @@ Foram implementados os testes:
 ## 🛠️ Construído com
 
 * [Eclipse IDE](https://www.eclipse.org/downloads/download.php?file=/oomph/epp/2021-06/R/eclipse-inst-jre-win64.exe)
-* [JDBC Driver for MySQL]()
-* [Xampp]()
+* [JDBC Driver for MySQL](https://dev.mysql.com/downloads/connector/j/)
+* [Xampp](https://www.apachefriends.org/xampp-files/8.0.7/xampp-windows-x64-8.0.7-0-VS16-installer.exe)
+* [JavaFx](https://gluonhq.com/download/javafx-16-sdk-windows/)
+
 
 
 ## ✒️ Autor
@@ -161,7 +170,7 @@ Foram implementados os testes:
 
 ## 📄 Licença
 
-Este projeto está sob a licença (sua licença) - veja o arquivo [LICENSE.md](https://github.com/usuario/projeto/licenca) para detalhes.
+Este projeto está sob a licença (sua licença) - veja o arquivo [LICENSE.md](https://github.com/MaressaOliveira25/SistemaDivulgaTudo/blob/main/LICENSE) para detalhes.
 
 ## 🎁 Expressões de gratidão
 

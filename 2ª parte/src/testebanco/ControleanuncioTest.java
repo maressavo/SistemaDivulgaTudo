@@ -26,7 +26,7 @@ class ControleanuncioTest {
 	}
 
 	@Test
-	void testConsultanome() {//testando script do cadastro de anúncio
+	void testConsultanome() {//testando consulta de clientes no bando de dados
 		Controleanuncio controle = new Controleanuncio();
 		if(controle.consultanome("Bombril")!=null) {
 			System.out.println("Cliente encontrado com sucesso.");
@@ -36,12 +36,12 @@ class ControleanuncioTest {
 	}
 	
 	@Test
-	void testConsultadata(Date datainicio, Date datafinal) {//testando script do cadastro de anúncio
+	void testConsultadata() {//testando a consulta de datas
 		Controleanuncio controle = new Controleanuncio();
-	//	if(controle.consultadata(datainicio "2021-06-25" datafinal "2021-08-01")!=null) {
-			System.out.println("Cliente encontrado com sucesso.");
-		//}else {
+		if(controle.consultadata(Date.valueOf("2021-06-25"),Date.valueOf("2021-08-01"))!=null) {
+			System.out.println("Cliente encontrado com sucesso para o intervalo de datas.");
+		}else {
 			System.out.println("Não foram encontrados anúncios com esse critério.");
-		}
-	//}
+		}//
+	}
 }

@@ -141,7 +141,9 @@ As imagens a seguir demonstram 4 realidades sobre a validação das datas:
 
 ## ⚙️ Executando os testes
 
-Foram implementados os testes para a conecção com o Banco de Dados conforme demonstra a foto a seguir:
+Foram implementados os testes:
+* Para a conexão com o Banco de Dados na classe ConexaoTest.java;
+* Para os módulos de cadastro, também consultas de diferença entre datas e consulta de nome de cliente no banco de dados. Os testes encontram-se na classe ControleanuncioTest.java.
 
 
 

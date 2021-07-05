@@ -102,6 +102,7 @@ Na sequência execute a classe Main.java. Se todos os passos anteriores foram se
 Clique no botão Cadastrar anúncio, na sequência insira os dados solicitados, conforme demonstra a imagem a seguir:
 ![image](https://user-images.githubusercontent.com/86390616/124391783-923d6880-dcc8-11eb-818b-2a8e6f960347.png)
 
+
 Se algum dos campos não for preenchido, o anúncio não é salvo.
 O sistema retorna os erros.
 A imagem a seguir demonstra a validação geral.
@@ -131,9 +132,12 @@ As imagens a seguir demonstram 4 realidades sobre a validação das datas:
 
 ![image](https://user-images.githubusercontent.com/86390616/124399838-9da68900-dcf4-11eb-9ad6-64fce2195969.png)
 
+
 ![image](https://user-images.githubusercontent.com/86390616/124399840-a008e300-dcf4-11eb-8ed4-38080637a999.png)
 
+
 ![image](https://user-images.githubusercontent.com/86390616/124399848-a8f9b480-dcf4-11eb-8c89-18fef7e346ad.png)
+
 
 ![image](https://user-images.githubusercontent.com/86390616/124399849-ad25d200-dcf4-11eb-84db-ef0606e6dcb7.png)
 
@@ -150,8 +154,8 @@ Foram implementados os testes:
 ## 🛠️ Construído com
 
 * [Eclipse IDE](https://www.eclipse.org/downloads/download.php?file=/oomph/epp/2021-06/R/eclipse-inst-jre-win64.exe)
-* [JDBC Driver for MySQL]()
-* [Xampp]()
+* [JDBC Driver for MySQL](https://dev.mysql.com/downloads/connector/j/)
+* [Xampp](https://www.apachefriends.org/xampp-files/8.0.7/xampp-windows-x64-8.0.7-0-VS16-installer.exe)
 
 
 ## ✒️ Autor

@@ -91,6 +91,9 @@ Após a instalação do Xampp, verifique se o Apache e o MySQL estão ativos con
 Rode a Query que está no arquivo banco.sql que se encontra no pacote banco. Verifique se está tudo ok com o banco, caso esteja, abra a classe Conexao.java que está no pacote banco, verifique os campos do nome do usuário e senha, e caso seu usuário ou senha sejam diferentes, substitua-os, se mantiver o mesmo padrão de usuário "root" e estiver sem senha, basta executar a classe que a conexão com o banco será estabelecida.
 ![image](https://user-images.githubusercontent.com/86390616/124399937-49e86f80-dcf5-11eb-8fdf-709a5731196f.png)
 
+Crie uma Userlibrary os jars que deverão ser adicionados a essa library se encontram no link a seguir [Library JavaFX](https://github.com/MaressaOliveira25/SistemaDivulgaTudo/tree/main/2%C2%AA%20parte/JavaFX/lib), adicione somente os .jar, não adicione o arquivo javafx.properties nem o arquivo src.zip.
+Após a criação dessa Library, adicione ao Build Path.
+
 Edite no Run Configurations... O valor do VM Arguments, com a seguinte instrução: --module-path ".../JavaFX/lib" --add-modules javafx.controls,javafx.fxml, a qual está demonstrada na imagem abaixo.
 ![image](https://user-images.githubusercontent.com/86390616/124399975-90d66500-dcf5-11eb-9d5e-49150d2e9124.png)
 
@@ -156,6 +159,8 @@ Foram implementados os testes:
 * [Eclipse IDE](https://www.eclipse.org/downloads/download.php?file=/oomph/epp/2021-06/R/eclipse-inst-jre-win64.exe)
 * [JDBC Driver for MySQL](https://dev.mysql.com/downloads/connector/j/)
 * [Xampp](https://www.apachefriends.org/xampp-files/8.0.7/xampp-windows-x64-8.0.7-0-VS16-installer.exe)
+* [JavaFx](https://gluonhq.com/download/javafx-16-sdk-windows/)
+
 
 
 ## ✒️ Autor
